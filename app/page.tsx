@@ -16,8 +16,10 @@ export default function Home() {
       />
 
       <div className="flex flex-col justify-center items-center mt-9">
-        <h1 className="font-bold mb-2 text-[20px]">Dra Camila Neiva</h1>
-        <h2 className="text-[14px] text-center">
+        <h1 className="font-bold mb-2 text-[20px] text-white">
+          Dra Camila Neiva
+        </h1>
+        <h2 className="text-[14px] text-center text-white">
           Atendimentos em Psiquiatria com ética, conhecimento e acolhimento.
         </h2>
       </div>
@@ -26,7 +28,10 @@ export default function Home() {
         <Links />
       </div>
 
-      <Link href="https://www.instagram.com/camilaneiva.dra">
+      <Link
+        href="https://www.instagram.com/camilaneiva.dra"
+        className="text-white"
+      >
         <FaInstagram size={36} className="mt-6" />
       </Link>
     </main>
