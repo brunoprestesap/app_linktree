@@ -12,7 +12,7 @@ export default function Home() {
         alt="foto dra camila"
         width={96}
         height={96}
-        className="rounded-full"
+        className="rounded-full border-2 shadow-md shadow-slate-400"
       />
 
       <div className="flex flex-col justify-center items-center mt-9">
