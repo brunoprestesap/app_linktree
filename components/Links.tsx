@@ -10,7 +10,7 @@ import link from "next/link";
 
 const Links = () => {
   return (
-    <div className="w-full flex flex-col justify-between gap-4">
+    <div className="w-full flex flex-col justify-between gap-2 md:gap-4">
       <BtnLink
         description="Agendamento Presencial"
         img=<FaBookMedical size={28} />
