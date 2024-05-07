@@ -6,7 +6,6 @@ import { GiVideoConference } from "react-icons/gi";
 import { FaChrome } from "react-icons/fa";
 import { GiNightSleep } from "react-icons/gi";
 import { SiGooglemaps } from "react-icons/si";
-import link from "next/link";
 
 const Links = () => {
   return (
