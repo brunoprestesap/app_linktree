@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-5 md:p-24 bg-gradient-to-r from-green-800 to-green-600">
       <Image
-        src="/assets/perfil.webp"
+        src="/links/assets/perfil.png"
         alt="foto dra camila"
         width={96}
         height={96}
-        className="rounded-full border-2 shadow-md shadow-slate-400"
+        loading="lazy"
       />
 
       <div className="flex flex-col justify-center items-center mt-9">
